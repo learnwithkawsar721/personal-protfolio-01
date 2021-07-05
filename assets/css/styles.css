@@ -118,3 +118,63 @@ box-shadow: 5px 5px 15px 5px #000000;
 .banner_button{
     margin-top: 20px;
 }
+/*================ Banner Area End =======================*/
+.about__area{
+    margin: 100px 0;
+}
+.section__title{
+    text-align: center;
+    
+}
+.section__title .section__text {
+position: relative;
+font-size: 32px;
+line-height: 2em;
+color: var(--first-color);
+font-weight: var(--semibold-font)
+
+}
+.section__title .section__text::after{
+    content: '';
+    position: absolute;
+    /* top: 0; */
+    /* bottom: 100%; */
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 3.5rem;
+    height: 4px;
+    width: 100px;
+    background: var(--first-color);
+}
+.main__about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.content__half{
+    width: 50%;
+}
+.about__img{
+    width: 100%;
+     text-align: center;
+    
+}
+.about__img img{
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+.about__item__text h2{
+    font-size: 24px;
+    font-weight: var(--semibold-font);
+    line-height: 2em;
+}
+.about__item__text p{
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: var(--regular-font);
+    color: var(--second-color);
+    text-align: justify;
+}
