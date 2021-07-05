@@ -53,10 +53,14 @@ body{
 /* ============ Basic Css ============== */
 
 /* =================== layout Css ==================== */
+.header-area{
+    position: fixed;
+}
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     
 }
 .shadwo{
@@ -86,10 +90,14 @@ box-shadow: 5px 5px 15px 5px #000000;
     color: var(--second-color);
 }
 /*======== End Nav Css ===========*/
+.banner__area{
+    margin-bottom: 100px;
+}
 .main__banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 50px 0 80px 0;
 }
 .banner__text{
     padding-top: 80px;
