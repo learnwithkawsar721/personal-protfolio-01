@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* ============ Google Fonts ================== */
+:root{
+    --font-family:'Poppins',
+    sans-serif;
+    --regular-font:400;
+    --meduim-font:500;
+    --semibold-font:600;
+    --bold-font:700;
+    --extra-bold-font:800;
+    --black-font:900;
+}
+/* =========== Font ============== */
+:root{
+    --first-color:#4070f4;
+    --second-color:#0e2431;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: var(--font-family);
+    color: var(--second-color);
+}
+.full{
+    width: 100%;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.button__style{
+    cursor: pointer;
+    background: var(--first-color);
+    padding: 12px 40px;
+    font-size: 18px;
+    font-weight: var(--semibold-font);
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 2em;
+    border-radius: 5px;
+}
+/* ============ Basic Css ============== */
+
+/* =================== layout Css ==================== */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.shadwo{
+-webkit-box-shadow: 5px 5px 15px 5px #000000;
+box-shadow: 5px 5px 15px 5px #000000;
+}
+.nav__logo{
+    font-size: 20px;
+    line-height: 2em;
+    font-weight: var(--semibold-font);
+}
+.active{
+    border-bottom: 4px solid var(--first-color);
+}
+.nav__item{
+    display: inline-block;
+    margin: 10px 20px;
+    transition: all 0.4s ease;
+}
+.nav__item:hover{
+    border-bottom: 4px solid var(--first-color);
+}
+.nav_link{
+    font-size: 18px;
+    line-height: 2em;
+    font-weight: var(--meduim-font);
+    color: var(--second-color);
+}
+/*======== End Nav Css ===========*/
+.main__banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner__text{
+    padding-top: 80px;
+}
+.banner__title{
+    font-size: 2.6rem;
+    font-weight: var(--bold-font);
+    /* line-height: 1.5em; */
+    text-transform: capitalize;
+    padding-top: 30px;
+    
+}
+.banner__title__color{
+    color: var(--first-color);
+}
+.banner__half{
+    width: 50%;
+}
+.banner__img img{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    padding-top: 50px;
+
+}
+.banner_button{
+    margin-top: 20px;
+}
